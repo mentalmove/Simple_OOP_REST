@@ -45,7 +45,7 @@
         
         /**
          * Again: all classes to inherit from must be included
-         * Eventual configuration data must be provided to the respecttive class
+         * Eventual configuration data must be provided to the respective class
          */
         $mandatory_files = Utilities::list_files("includes/mandatory/");
         for ( $i = 0; $i < count($mandatory_files); $i++ ) {
