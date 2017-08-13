@@ -1,0 +1,50 @@
+html, body {
+    margin: 20px;
+    background-color: #F8F8F8;
+    font-family: Arial, Verdana;
+    font-size: 20px;
+    text-align: center;
+}
+.header {
+    margin-bottom: 6em;
+}
+.title_zone {
+    width: 50%;
+    font-size: 1.5em;
+    float: left;
+    cursor: pointer;
+}
+.auth_zone {
+    width: 50%;
+    float: right;
+}
+.user_list {
+    margin-top: 32px;
+    line-height: 1.5em;
+}
+.delete_bt {
+    float: right;
+    cursor: pointer;
+}
+.msg_paragraph {
+    width: 50%;
+    margin: auto;
+    line-height: 2em;
+}
+.msg_paragraph.silver {
+    background-color: silver;
+}
+.sender_identification {
+    float: left;
+    font-size: 12px;
+    cursor: pointer;
+    color: gray;
+}
+a:link {
+    color: #707868;
+    text-decoration: none;
+}
+a:visited {
+    color: #707868;
+    text-decoration: none;
+}
