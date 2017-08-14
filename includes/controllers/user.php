@@ -26,7 +26,7 @@ class User extends Controller {
     
     /**
      * Cannot be done in the constructor because
-     *      - page owner is not knowm at that point
+     *      - page owner is not known at that point
      *      - eventual changes are not knowm at that point
      */
     private function post_construct () {
