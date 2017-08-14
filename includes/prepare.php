@@ -44,13 +44,13 @@
             include_once "includes/parents/" . $parent_classes[$i];
         
         /**
-         * Again: all classes to inherit from must be included
+         * All classes needed in every case must be included
          * Eventual configuration data must be provided to the respective class
          */
         $mandatory_files = Utilities::list_files("includes/mandatory/");
         for ( $i = 0; $i < count($mandatory_files); $i++ ) {
             include_once "includes/mandatory/" . $mandatory_files[$i];
-            $namespace = preg_replace("/\.\w+$/", "", $mandatory_files[$i]);
+            $namespace = preg_replace("/\.\w+$/", "", $mandatory_files[$i]);    // filename without suffix
             $classname = ucfirst($namespace);
             if ( isset($configuration[$namespace]) ) {
                 if ( is_callable($classname . "::set_basic_values") )
