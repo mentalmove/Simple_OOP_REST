@@ -1,8 +1,0 @@
-<Files *.*>
-    # Forbidden for all...
-    Order deny,allow
-    Deny from all
-</Files>
-
-# Non-Apache servers (nginx etc.)
-# need other protection
