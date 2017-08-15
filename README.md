@@ -73,7 +73,7 @@ Although this usage is meaningful, HTTP methods could be interpreted differently
 - *PUT*     Update the server administrator's calendar 
 - *DELETE*  Shutdown the server
 
-Needless to mention that this is not a recommendation
+Needless to mention that this is not a recommendation.
 
 When HTTP methods *PUT* or *DELETE* shall be used in a browser,
 the most common trick is to create a form, add a hidden parameter 'method'
