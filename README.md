@@ -80,14 +80,6 @@ the most common trick is to create a form, add a hidden parameter 'method'
 and send it using HTTP method *POST*.
 
 
-## Branch **minimum**
-A very short (but runnable) example with two classes
-and two HTTP methods, showing
-- successful mapping
-- direct file access
-- error handling for undefined URL requests
-
-
 ## Object Orientation or not Object Orientation
 Rewriting and REST can be used as well object oriented as functional.
 **This shall not be a discussion about the advantages and disadvantages of OOP**.
@@ -96,7 +88,15 @@ one would probably prefer OOP (like here) for readability reasons
 while for a pure technical API it could be worth thinking about a classless solution.
 
 
-## Branch **master**
+## Branch *minimum*
+A very short (but runnable) example with two classes
+and two HTTP methods, showing
+- successful mapping
+- direct file access
+- error handling for undefined URL requests
+
+
+## Branch *master*
 Simulation of a social network application. 
 **It is not intended to use in production, not even as a starting point for production usage**
 since it doesn't provide any security mechanisms at all.
