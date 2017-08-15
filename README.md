@@ -37,13 +37,13 @@ for ( $i = 2; $i < count($page_components); $i++ )
 call_user_func_array(Array(ucfirst($page_components[0]), $page_components[1]), $parameters);
 ```
 
-Calling 
-    *BASE_URL/paint/brigthness/black/white* 
-would lead to output
-    **Possible are black and white** 
-while calling 
-    *BASE_URL/paint/colours/red/green/blue* 
-would lead to output
+Calling  
+    *BASE_URL/paint/brigthness/black/white*  
+would lead to output  
+    **Possible are black and white**  
+while calling  
+    *BASE_URL/paint/colours/red/green/blue*  
+would lead to output  
     **Colours are red, green and blue**
 
 *To simplify things, this example does not use error handling nor security mechanisms at all*
