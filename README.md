@@ -111,20 +111,20 @@ To be usable with a server different from Apache,
 *.htaccess* - files have to be translated.
 
 Technically, the requested URL reflects a multi-dimensional matrix:
-    - First url part (controller class)
-    - Second url part (user id; only class 'User')
-    - HTTP method (GET, POST, PUT, DELETE)
-    - $_SESSION (logged in as distinct user or not)
+- First url part (controller class)
+- Second url part (user id; only class 'User')
+- HTTP method (GET, POST, PUT, DELETE)
+- $_SESSION (logged in as distinct user or not)
 
-GET         Home        ...         ...             (Displays home page)
-POST        Home        ...         logged out      (Logs in as a distinct user)
+GET         Home        ...         ...             (Displays home page)  
+POST        Home        ...         logged out      (Logs in as a distinct user)  
 DELETE      Home        ...         logged in       (Logs out)
 
-GET         Account     ...         logged out      (Shows form to create an account)
-GET         Account     ...         logged in       (Shows form to edit existing account)
-POST        Account     ...         logged out      (Receives data to create an account)
+GET         Account     ...         logged out      (Shows form to create an account)  
+GET         Account     ...         logged in       (Shows form to edit existing account)  
+POST        Account     ...         logged out      (Receives data to create an account)  
 PUT         Account     ...         logged in       (Receives data to edit existing account)
 
-GET         User        user id     ...             (Displays user specific public data)
-POST        User        user id     logged in       (Receives data of new message)
+GET         User        user id     ...             (Displays user specific public data)  
+POST        User        user id     logged in       (Receives data of new message)  
 DELETE      User        user id     logged in       (Deletes a message; only possible when user id and $_SESSION['user_id'] are identical)
