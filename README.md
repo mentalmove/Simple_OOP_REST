@@ -67,11 +67,11 @@ Cannot be invoked from a browser
 - *DELETE*  Deletes an existing ressource.
 Cannot be invoked from a browser 
 
-Although this usage is meaningful, HTTP methods could be interpreted differently, e.g. 
-    - *GET*     Write characters 'g', 'e' and 't' into the log file 
-    - *POST*    Send an email 
-    - *PUT*     Update the server administrator's calendar 
-    - *DELETE*  Shutdown the server 
+Although this usage is meaningful, HTTP methods could be interpreted differently, e.g.
+- *GET*     Write characters 'g', 'e' and 't' into the log file 
+- *POST*    Send an email 
+- *PUT*     Update the server administrator's calendar 
+- *DELETE*  Shutdown the server  
 Needless to mention that this is not a recommendation
 
 When HTTP methods *PUT* or *DELETE* shall be used in a browser,
