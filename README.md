@@ -83,9 +83,9 @@ and send it using HTTP method *POST*.
 ## Branch **minimum**
 A very short (but runnable) example with two classes
 and two HTTP methods, showing
-    - successful mapping
-    - direct file access
-    - error handling for undefined URL requests
+- successful mapping
+- direct file access
+- error handling for undefined URL requests
 
 
 ## Object Orientation or not Object Orientation
