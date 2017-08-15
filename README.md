@@ -55,7 +55,7 @@ When a network address is called, it can be done using HTTP methods
 (theoretically also *PATCH*, *HEAD*, *OPTIONS*, *CONNECT* and *TRACE*,
 but this is out of this scope).
 
-Typical usage is  
+Typical usage is
 - *GET*     Retrieves the ressource without changing anything.
 Limited additional information can be sent with the request.
 The default procedure when calling a web address in a browser 
