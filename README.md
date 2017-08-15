@@ -12,9 +12,9 @@ The most unpretentious usage is providing fallbacks for unfound files;
 since the URL information are kept, much more imaginative solutions are possible.
 
 Assuming URLs shall be interpreted following the schema  
-    > BASE_URL/CLASS_NAME/FUNCTION_NAME/ARGUMENT1/ARGUMENT2/ARGUMENT3/...  
+> BASE_URL/CLASS_NAME/FUNCTION_NAME/ARGUMENT1/ARGUMENT2/ARGUMENT3/...  
 and the rewrite engine has the rule  
-    > (.+) index.php/$1         # map everything to 'index.php'  
+> (.+) index.php/$1         # map everything to 'index.php'  
 a typical aproach would be:
 
 ```
