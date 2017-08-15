@@ -103,7 +103,7 @@ since it doesn't provide any security mechanisms at all.
 To demonstrate this, not even passwords are used.
 
 Prerequsite is a database connection; credentials must be given in 
-    *includes/configuration/config.ini* 
+    *includes/configuration/config.ini*  
 Database and table description can be found in 
     *assets/create.sql*
 
