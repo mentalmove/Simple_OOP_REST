@@ -116,6 +116,7 @@ Technically, the requested URL reflects a multi-dimensional matrix:
 - HTTP method (GET, POST, PUT, DELETE)
 - $_SESSION (logged in as distinct user or not)
 
+```
 GET         Home        ...         ...             (Displays home page)  
 POST        Home        ...         logged out      (Logs in as a distinct user)  
 DELETE      Home        ...         logged in       (Logs out)
@@ -128,3 +129,4 @@ PUT         Account     ...         logged in       (Receives data to edit exist
 GET         User        user id     ...             (Displays user specific public data)  
 POST        User        user id     logged in       (Receives data of new message)  
 DELETE      User        user id     logged in       (Deletes a message; only possible when user id and $_SESSION['user_id'] are identical)
+```
