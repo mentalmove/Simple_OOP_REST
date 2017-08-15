@@ -55,16 +55,16 @@ When a network address is called, it can be done using HTTP methods
 (theoretically also *PATCH*, *HEAD*, *OPTIONS*, *CONNECT* and *TRACE*,
 but this is out of this scope).
 
-Typical usage is 
-    - *GET*     Retrieves the ressource without changing anything.
+Typical usage is  
+- *GET*     Retrieves the ressource without changing anything.
 Limited additional information can be sent with the request.
 The default procedure when calling a web address in a browser 
-    - *POST*    Sends information to the called address.
+- *POST*    Sends information to the called address.
 Creates a new ressource (physically or in a database).
 Can be invoked from a browser using forms 
-    - *PUT*     Alters an existing ressource (eventually creates it if not existent).
+- *PUT*     Alters an existing ressource (eventually creates it if not existent).
 Cannot be invoked from a browser
-    - *DELETE*  Deletes an existing ressource.
+- *DELETE*  Deletes an existing ressource.
 Cannot be invoked from a browser 
 
 Although this usage is meaningful, HTTP methods could be interpreted differently, e.g. 
