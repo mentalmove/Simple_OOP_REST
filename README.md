@@ -1,4 +1,4 @@
-# Simple_OOP_REST
+# Simple OOP REST
 
 The project uses two techniques: **Rewrite engine** and **Representational State Transfer**. 
 Although it is not mandatory, these are often used collectively.
