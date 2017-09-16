@@ -1,4 +1,4 @@
-## Branch *minimal*
+## Simple OOP REST - minimal
 
 A very short (but runnable) example with two classes
 and two HTTP methods, showing
