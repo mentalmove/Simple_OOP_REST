@@ -88,7 +88,7 @@ one would probably prefer OOP (like here) for readability reasons
 while for a pure technical API it could be worth thinking about a classless solution.
 
 
-## Branch [minimal](https://github.com/mentalmove/Simple_OOP_REST/tree/minimal)
+## Branch *[minimal](https://github.com/mentalmove/Simple_OOP_REST/tree/minimal)*
 A very short (but runnable) example with two classes
 and two HTTP methods, showing
 - successful mapping
