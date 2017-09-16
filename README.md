@@ -19,7 +19,7 @@ and the rewrite engine has the rule
 
 a typical aproach would be:
 
-```
+```php
 // index.php
 class Paint {
     public function brigthness ($first_colour, $second_colour) {
