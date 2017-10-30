@@ -47,6 +47,10 @@ class User extends Controller {
     
     /**
      * A logged-in recipient may delete messages
+     * 
+     * IN PRODUCTION USAGE, MESSAGES WOULD
+     *      **NEVER**
+     * BE DELETED BUT MARKED AS INACTIVE
      */
     public function delete () {
         
