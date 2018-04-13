@@ -79,6 +79,17 @@ When HTTP methods *PUT* or *DELETE* shall be used in a browser,
 the most common trick is to create a form, add a hidden parameter 'method'
 and send it using HTTP method *POST*.
 
+> The above description follows common explanations but is inaccurate. 
+>
+> **PUT** and **DELETE** *can* be invoked
+> in a browser environment, but that requires (more or less) heavy usage of Javascript.
+>
+> There is some confusion about the difference between *PUT* and *POST* - both can be used
+> to create ressources. **PUT** creates the ressource at the provided address
+> (overwriting eventually existing ressources) while **POST** will create it one level below.
+> Repeated exertion of the same *POST* request will repeatedly create ressources
+> while a distinct *PUT* request will create exactly one ressource, independent of its amount of calls.
+
 
 ## Object Orientation or not Object Orientation
 Rewriting and REST can be used as well object oriented as functional.
